@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    margin:0;
+    padding:0;
+}
+#container{
+    width:1500px;
+    margin:0 auto;
+}
+.col1{
+    width:700px;
+    float:left;
+}
+.col2{
+    width:700px;
+    float:left;
+}
+.container {
+    max-width: 1500px;
+    margin: auto;
+    padding: 20px;
+}
+
+nav {
+    background: #444;
+    text-align: right;
+
+    padding: 10px 0;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: #555;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+section {
+    padding: 20px 0;
+    margin-bottom: 20px; /* Add margin between sections */
+}
+#home {
+    background-image: url('Images/AboutImage.jpeg'); /* Replace this with your image URL */
+    background-image: rgba(51, 51, 51, 0.8);
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Text color to ensure visibility */
+    text-align: center;
+    padding: 100px 100px; /* Adjust padding to center content vertically */
+    height:500px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+* {
+box-sizing: border-box;
+
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+float: left;
+width: 50%;
+padding: 10px;
+height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column {
+width: 100%;
+}
+}
+.image-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr); /* Three columns */
+grid-gap: 20px; /* Gap between images */
+max-width: 1600px; /* Set maximum width */
+margin: 0 auto; /* Center the grid */
+}
+
+.image-container {
+text-align: center; /* Center-align text */
+}
+
+.image-container img {
+max-height: 600px; /* Set maximum height */
+max-width: 500px; /* Set maximum width */
+width: 100%; /* Ensure images fill the container */
+height: 300px; /* Maintain aspect ratio */
+}
+
+.image-container p {
+margin-top: 10px; /* Add margin between image and text */
+}
+
+#contact {
+padding: 20px 0;
+}
+
+.contact-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 20px;
+}
+
+.contact-item {
+text-align: center;
+}
+
+.contact-item img {
+width: 50px;
+height: 50px;
+margin-bottom: 10px;
+}
+
+.contact-item p {
+margin: 0;
+}
+.button {
+background-color: #0dbd7d; /* Green */
+border:#333;
+color: white;
+padding: 8px 16px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 2px 2px;
+cursor: pointer;
+}
+h2{
+text-shadow: 2px 2px 4px #000000;
+}
+
